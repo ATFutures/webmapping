@@ -25,3 +25,6 @@ Let us do some of the [w3](https://www.w3schools.com/js/js_intro.asp):
 
 ## \<script> tag
 > Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
+
+- See example in using [w3](https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto_body) 
+- Local repo (with corrections in the original JS)
