@@ -3,6 +3,8 @@ title: "JavaScript; the omnipotent"
 author: L Hama
 date: '`r Sys.Date()`'
 output: revealjs::revealjs_presentation
+reveal_options:
+      slideNumber: true
 bibliography: refs.bib
 ---
 # JavaScript
@@ -20,10 +22,24 @@ bibliography: refs.bib
 <blockquote style="margin:auto" class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Think of JavaScript as a Dante-like figure, moving from the Netscape rush-job dynamic language hell of the &#39;90s to paradise. Programming Language Theory is Virgil. I won&#39;t make more analogies that put real people in circles of hell (but I could!). Anyway, no: JS is not the devil.</p>&mdash; BrendanEich (@BrendanEich) <a href="https://twitter.com/BrendanEich/status/1124292439358025728?ref_src=twsrc%5Etfw">3 May 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
-## Breakfast
+## Why JS?
 
-- Eat eggs
-- Drink coffee
+- Machine Learning (TensorFlow.js)
+- Scientific/information visualization
+- Development (VS Code - Microsoft, Atom - github)
+- ReactJS (Facebook), Angular (Google/Microsoft) etc.
+- ReactNative (Develop smartphone apps - native)
+
+## Worksheet 1
+
+## JS Goodies
+
+> https://github.com/getify/You-Dont-Know-JS
+
+> https://github.com/sorrycc/awesome-javascript
+
+
+## JS intro
 
 ```{js}
 document.getElementById("content").innerHTML = "Hello World";

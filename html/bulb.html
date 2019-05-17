@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    button{
+        font-size: 2em
+    }
+</style>
+</head>
+
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>In this case JavaScript changes the value of the inner html of a span.</p>
+
+<button onclick="document.getElementById('myImage').innerHTML=
+'<i class=\'fa fa-lightbulb-o\' style=\'font-size:20em;color:black\'></i>'">Turn on the light</button>
+
+<span id="myImage">
+        <i class="fa fa-lightbulb-o" style="font-size:20em;color:black"></i>
+</span>
+<button onclick="document.getElementById('myImage').innerHTML=
+'<i class=\'fa fa-lightbulb-o\' style=\'font-size:20em;color:yellow\'></i>'">Turn off the light</button>
+
+</body>
+</html>
+
