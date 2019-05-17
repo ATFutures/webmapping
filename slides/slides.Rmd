@@ -33,16 +33,13 @@ bibliography: refs.bib
 - ReactJS (Facebook), Angular (Google/Microsoft) etc.
 - ReactNative (Develop smartphone apps - native)
 
-## Worksheet 1
+## JS intro
+```{js}
+document.write("<p style='color:orange'>Hello World</p>");
+```
 
 - Open the Markdown document within the repo.
 - We will get back to the slides from time time.
-
-## JS intro
-
-```{js}
-document.getElementById("content").innerHTML = "Hello World";
-```
 
 ## JS document
 <p class="box">Tip: use the inspect element to find whiwhc table you like to add the new row/td to.</p>
@@ -66,7 +63,6 @@ document.getElementById("content").innerHTML = "Hello World";
     color: #4a4a4a;
     background: #E8E8E8;
 }
-
 /* -- create the quotation marks -- */
 .box:before,
 .box:after{
