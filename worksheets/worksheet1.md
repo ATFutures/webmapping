@@ -1,5 +1,6 @@
 # Introduction to JS
 
+## The console
 Open your favourite browser, find "Developer tools" and open the "console tab".
 
 Say hello to your world:
@@ -10,7 +11,17 @@ alert("Hello World!");
 
 <img width="459" alt="Screenshot 2019-05-17 at 16 28 58" src="https://user-images.githubusercontent.com/408568/57938823-e4d92200-78c0-11e9-9a42-8a4c1b86f451.png">
 
-It can be your calculator if you don't usually do it in Google:
+Or right within this Markdowb document:
+```{js}
+<script>
+document.write("Hello World");
+</script>
+```
+<script>
+document.write("Hello World");
+</script>
+
+The browser console can be your calculator if you don't usually do it in Google:
 
 ```{js}
 1 + 1
@@ -27,4 +38,26 @@ Let us do some of the [w3](https://www.w3schools.com/js/js_intro.asp):
 > Placing scripts at the bottom of the <body> element improves the display speed, because script interpretation slows down the display.
 
 - See example in using [w3](https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto_body) 
-- Local repo (with corrections in the original JS)
+- Local repo (*/html/myscript.html*) with corrections in the original JS.
+
+```{js}
+<script>
+document.write(5 + 6);
+</script>
+```
+<script>
+document.write(5 + 6);
+</script>
+
+See the same command over at [w3](https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_write).
+
+## The 'document'
+> The HTML DOM document object is the owner of all other objects in your web page. ~ W3
+
+```{js}
+document.getElementById(id)	          # Find an element by element id
+document.getElementsByTagName(name)	  # Find elements by tag name
+document.getElementsByClassName(name)     # Find elements by class name
+```
+
+Let us play in the console, open the [W3](https://www.w3schools.com/js/js_htmldom_document.asp) page:
