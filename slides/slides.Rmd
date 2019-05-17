@@ -7,6 +7,9 @@ reveal_options:
       slideNumber: true
 bibliography: refs.bib
 ---
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 # JavaScript
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr"><a href="https://t.co/ygYakEfRbF">https://t.co/ygYakEfRbF</a><br><br>As official as it gets. <a href="https://t.co/hKwFRAZayx">pic.twitter.com/hKwFRAZayx</a></p>&mdash; BrendanEich (@BrendanEich) <a href="https://twitter.com/BrendanEich/status/1087911921876004865?ref_src=twsrc%5Etfw">23 January 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -32,12 +35,8 @@ bibliography: refs.bib
 
 ## Worksheet 1
 
-## JS Goodies
-
-> https://github.com/getify/You-Dont-Know-JS
-
-> https://github.com/sorrycc/awesome-javascript
-
+- Open the Markdown document within the repo.
+- We will get back to the slides from time time.
 
 ## JS intro
 
@@ -49,6 +48,11 @@ document.getElementById("content").innerHTML = "Hello World";
 <p class="box">Tip: use the inspect element to find whiwhc table you like to add the new row/td to.</p>
 
 
+## JS Goodies
+> https://github.com/getify/You-Dont-Know-JS
+
+> https://github.com/sorrycc/awesome-javascript
+
 <style>
 .box {
     border-radius: 3px;
@@ -59,7 +63,28 @@ document.getElementById("content").innerHTML = "Hello World";
     width: 80%;  /* create space for the quotes */
     color: #4a4a4a;
     margin: 1rem auto 2rem;
-    color: #8a6a4a;
+    color: #4a4a4a;
     background: #E8E8E8;
+}
+
+/* -- create the quotation marks -- */
+.box:before,
+.box:after{
+    font-family: FontAwesome;
+    position: absolute;
+    /* -- inside the relative position of blockquote -- */
+    top: 13px;
+    color: #E8E8E8;
+    font-size: 34px;
+}
+.box:before{
+    content: "\f10d";
+    margin-right: 13px;
+    right: 100%;
+}
+.box:after{
+    content: "\f10e";
+    margin-left: 13px;
+    left: 100%;  
 }
 </style>
