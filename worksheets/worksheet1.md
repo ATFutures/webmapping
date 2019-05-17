@@ -79,5 +79,4 @@ var textnode = document.createTextNode("Hello World");
 td.appendChild(textnode)
 row.appendChild(td)
 document.getElementsByClassName("w3-table-all")[0].appendChild(row)
-
 ```
