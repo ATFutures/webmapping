@@ -55,9 +55,9 @@ See the same command over at [w3](https://www.w3schools.com/js/tryit.asp?filenam
 > The HTML DOM document object is the owner of all other objects in your web page. ~ W3
 
 ```javascript
-document.getElementById(id)	          # Find an element by element id
-document.getElementsByTagName(name)	  # Find elements by tag name
-document.getElementsByClassName(name)     # Find elements by class name
+document.getElementById(id)	          // Find an element by element id
+document.getElementsByTagName(name)	  // Find elements by tag name
+document.getElementsByClassName(name)     // Find elements by class name
 ```
 Creaete a list item and add it to an unordered list: [W3](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_appendchild).
 
