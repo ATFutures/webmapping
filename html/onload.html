@@ -1,0 +1,22 @@
+<html>
+<body onload="onload()">
+<h1 id="content"></h1>
+<button 
+id="button"
+onclick="toggle()"
+style="font-size: 2em">Toggle My Title to/from "Button"</button>
+<script>
+function onload() {
+  document.getElementById("content").innerHTML = "Hello World";
+}
+function toggle() {
+    var button = document.getElementById("button");
+    if(button.innerHTML == "Button") {
+        button.innerHTML = 'Toggle My Title to/from "Button"'
+    } else {
+        button.innerHTML = "Button";
+    }
+}
+</script>
+</body>
+</html>
