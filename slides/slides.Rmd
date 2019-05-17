@@ -1,0 +1,30 @@
+---
+title: "JavaScript; the omnipotent"
+author: L Hama
+date: '`r Sys.Date()`'
+output: revealjs::revealjs_presentation
+bibliography: refs.bib
+---
+# JavaScript
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr"><a href="https://t.co/ygYakEfRbF">https://t.co/ygYakEfRbF</a><br><br>As official as it gets. <a href="https://t.co/hKwFRAZayx">pic.twitter.com/hKwFRAZayx</a></p>&mdash; BrendanEich (@BrendanEich) <a href="https://twitter.com/BrendanEich/status/1087911921876004865?ref_src=twsrc%5Etfw">23 January 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+## Why JS?
+
+- The bad reputation? 
+
+> "Saving the world wide web from vulnerable JavaScript
+"
+
+- Is it?
+
+<blockquote style="margin:auto" class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Think of JavaScript as a Dante-like figure, moving from the Netscape rush-job dynamic language hell of the &#39;90s to paradise. Programming Language Theory is Virgil. I won&#39;t make more analogies that put real people in circles of hell (but I could!). Anyway, no: JS is not the devil.</p>&mdash; BrendanEich (@BrendanEich) <a href="https://twitter.com/BrendanEich/status/1124292439358025728?ref_src=twsrc%5Etfw">3 May 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+```{js}
+document.getElementById("content").innerHTML = "Hello World";
+```
