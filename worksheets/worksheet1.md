@@ -59,5 +59,25 @@ document.getElementById(id)	          # Find an element by element id
 document.getElementsByTagName(name)	  # Find elements by tag name
 document.getElementsByClassName(name)     # Find elements by class name
 ```
+Creaete a list item and add it to an unordered list: [W3](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_appendchild).
+
+```{js}
+var node = document.createElement("LI");
+var textnode = document.createTextNode("Water");
+node.appendChild(textnode);
+document.getElementById("myList").appendChild(node);
+```
 
 Let us play in the console, open the [W3](https://www.w3schools.com/js/js_htmldom_document.asp) page:
+
+```{js}
+document.getElementsByTagName("table") // returns 10 tables?
+document.getElementsByClassName("w3-table-all") // 5?
+var row = document.createElement("tr");
+var td = document.createElement("tr");
+var textnode = document.createTextNode("Hello World");
+td.appendChild(textnode)
+row.appendChild(td)
+document.getElementsByClassName("w3-table-all")[0].appendChild(row)
+
+```
