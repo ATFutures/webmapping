@@ -10,9 +10,10 @@ I think this could be a great place for a two day course to teach what I have le
 * Beginner
   * Why JS? (day 1)
   * Quick intro to JS (day 1)
+  * Quick intro into NodeJS (day 1)
   * Quick intro into modern web front-end frameworks (ReactJS) (day 1)
-  * A quick dive into ReactJS (day 1)
+  * A quick dive into ReactJS (day 2)
   * Web mapping (core of the course)  (day 2)
-  * Visualizing data using Leaflet/MapBoxGL (day 1)
+  * Visualizing data using Leaflet/MapBoxGL (day 2)
 * Advanced
   * Coming...
