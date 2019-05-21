@@ -84,3 +84,6 @@ document.write("<p style='color:orange'>Hello World</p>");
     left: 100%;  
 }
 </style>
+
+## Web mapping
+<img src="http://www.nic.funet.fi/index/FUNET/history/internet/en/xeroxmap.jpg"/>
