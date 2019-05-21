@@ -56,8 +56,50 @@ person["property"]      // person["age"]
 person[x = "age"]       // 55
 ```
 
+You can delete age property using `delete` keyword/command:
+```js
+delete person.age;   // or delete person["age"]; 
+```
+
 ## Loops
 ```js
 for(x in person) console.log(x)
 ```
 [![asciicast](https://asciinema.org/a/ALwqGsjtkY66TTUNBqRdrvUIV.svg)](https://asciinema.org/a/ALwqGsjtkY66TTUNBqRdrvUIV)
+
+## Getters and Setters
+I never use them. Are these coming from Java? There were shortcuts in Eclipse to create getters and setters, and synchronise in Xcode for ObjectiveC.
+
+```js
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  language : "en",
+  get lang() {
+    return this.language;
+  }
+};
+
+// use the getter
+person.lang;
+// see it person.language
+// if it was a function called lang
+// person.lang()
+```
+
+Similarly
+```js
+var person = {
+  firstName: "John",
+  lastName : "Doe",
+  language : "",
+  set lang(lang) {
+    this.language = lang;
+  }
+};
+
+person.lang = "en";
+// again if function
+// lang(lang) this.language = lang
+// person.lang("en")
+```
