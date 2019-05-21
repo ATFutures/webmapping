@@ -321,7 +321,7 @@ An object could be
 ```js
 var person = {
   firstName: "John",
-  lastName : "Doe",
+  lastName : "Smith",
   id       : 5566,
   fullName : function() {
     return this.firstName + " " + this.lastName;
