@@ -1,6 +1,5 @@
 # webmapping
-Short course in web (browser) [mapping](https://en.wikipedia.org/wiki/Web_mapping) using React. 
-
+Short course in web (browser) mapping using React
 
 I think this could be a great place for a two day course to teach what I have learned in the past year. Using the power of React/JS to visualize spatial data. From plotting simple Markers to the use of http://kepler.gl/ dashbords to analyse spatial data complemented by [R4TS](https://github.com/ITSLeeds/R4TS).
 
@@ -18,3 +17,6 @@ I think this could be a great place for a two day course to teach what I have le
   * Visualizing data using Leaflet/MapBoxGL (day 2)
 * Advanced
   * Coming...
+
+Inspirations taken from E.W Dijkstra.
+> It has been remarked to me (to my great regret. I cannot remember by whom and so I am unable to give credit where it seems due) that once a person has understood the way in which variables are used in programming, he has understood the quintessence of programming. ~ O. J. Dahl, E. W. Dijkstra, and C. A. R. Hoare (Eds.). 1972. [Structured Programming](https://dl.acm.org/citation.cfm?id=1243380). (p11)
