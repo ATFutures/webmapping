@@ -96,6 +96,9 @@ document.getElementById("demo").innerHTML = 5 + 6;
 ```
 
 ## Syntax
+
+> All JavaScript identifiers are case sensitive. 
+
 Variable declaration
 
 ```js

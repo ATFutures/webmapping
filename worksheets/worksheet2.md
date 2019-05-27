@@ -2,6 +2,7 @@
 
 > Layik Hama
 
+## Objects (more)
 Almost "everything" is an object:
 
 <ul>
@@ -73,7 +74,7 @@ I never use them. Are these coming from Java? There were shortcuts in Eclipse to
 ```js
 var person = {
   firstName: "John",
-  lastName : "Doe",
+  lastName : "Smith",
   language : "en",
   get lang() {
     return this.language;
@@ -91,7 +92,7 @@ Similarly
 ```js
 var person = {
   firstName: "John",
-  lastName : "Doe",
+  lastName : "Smith",
   language : "",
   set lang(lang) {
     this.language = lang;
@@ -102,4 +103,57 @@ person.lang = "en";
 // again if function
 // lang(lang) this.language = lang
 // person.lang("en")
+```
+
+## Constructors
+
+Remember functions?
+```js
+function add(x, y) {
+  return(x + y)
+}
+```
+
+We can also create objectsv(above) using functions. Above, we create just one person, now we can create "instances" of persons:
+
+```js
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+// Create a Person object
+var johnSmith = new Person("John", "Smith", 50, "blue");
+```
+
+Please note function names like other identifiers in JS are case sensitive.
+
+Constructors are functions, except we want them to do someting else rather than just execute. We want them to reutn "the objet". If we follow the convetion and `not` return anuthing, our constructors would return `this` for us which is what we wnat.
+
+If we do, well, that is what we get out of the `function`.
+
+```js
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+// returns this with the four properties
+
+// but
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+  return({
+    name: first + " " + last,
+    age: age,
+    eye: eye
+  })
+}
+// returns the object in return() statement
 ```
