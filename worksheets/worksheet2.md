@@ -65,7 +65,7 @@ delete person.age;   // or delete person["age"];
 ```js
 for(x in person) console.log(x)
 ```
-[![asciicast](https://asciinema.org/a/ALwqGsjtkY66TTUNBqRdrvUIV.svg)](https://asciinema.org/a/ALwqGsjtkY66TTUNBqRdrvUIV)
+[![asciicast](https://asciinema.org/a/248702.svg)](https://asciinema.org/a/248702)
 
 ## Getters and Setters
 I never use them. Are these coming from Java? There were shortcuts in Eclipse to create getters and setters, and synchronise in Xcode for ObjectiveC.
