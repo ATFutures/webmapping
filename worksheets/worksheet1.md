@@ -391,7 +391,15 @@ console.log(x) // 5
 x = 5;         // Assign 5 to x
 var x;         // Declare x
 ```
+## Browser parts
+> Even the document object (of the HTML DOM) is a property of the window object. ~w3
 
+* JavaScript
+* Document Object Model (DOM)
+  * `document.getElementById`
+* Browser Object Model (Bom)
+  * `window.document.getElementById`
+  
 # ECMAScript
 > ECMAScript 3 is fully supported in all browsers.
 

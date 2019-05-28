@@ -157,3 +157,27 @@ function Person(first, last, age, eye) {
 }
 // returns the object in return() statement
 ```
+
+## Prototypes
+> All JavaScript objects inherit properties and methods from a prototype.
+
+* Date objects inherit from Date.prototype
+* Array objects inherit from Array.prototype
+* Person objects inherit from Person.prototype
+
+> The Object.prototype is on the top of the prototype inheritance chain:
+
+Therefore:
+
+```js
+Date.prototype
+// Date {}
+
+// but
+Object.prototype
+// {}
+```
+
+One would be forgiven to confuse prototypes and constructors. Constructors are just functions which create objects. Constructors are the building blocks of JavaScript.
+
+At this stage, I would stay away from modifying prototypes.
