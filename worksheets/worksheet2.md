@@ -62,6 +62,15 @@ You can delete age property using `delete` keyword/command:
 delete person.age;   // or delete person["age"]; 
 ```
 
+### Methods
+As you can see there is a `fullName` "function" (for objects we call them methods) and can be accessed as:
+
+```js
+// we need the brackets
+person.fullName()
+// 'John Smith'
+```
+
 ## Loops
 ```js
 for(x in person) console.log(x)
@@ -107,7 +116,7 @@ person.lang = "en";
 
 ## Constructors
 
-Remember functions?
+Remember functions (more on them later)?
 ```js
 function add(x, y) {
   return(x + y)
@@ -181,3 +190,72 @@ Object.prototype
 One would be forgiven to confuse prototypes and constructors. Constructors are just functions which create objects. Constructors are the building blocks of JavaScript.
 
 At this stage, I would stay away from modifying prototypes.
+
+
+## Functions (more)
+JavaScript is a "functional" language. Functions rae building blocks just like primitives (string, number)
+```js
+var x = function (a, b) {return a * b};
+var z = x(4, 3);
+```
+
+> Functions can also be defined with a built-in JavaScript function constructor called Function().
+
+..but we will avoid this.
+
+As JS hoists your code, you don't have to worry about the order of using your functions.
+
+```js
+// this is fine
+myFunction(5);
+
+function myFunction(y) {
+  return y * y;
+}
+```
+
+### Self invocation
+Because functions are used almost everywhere in JS, they can also invoke themselves:
+
+```js
+(function () {
+  alert("Hello World");  
+})(); // the enclosing brackets followed by the last () means run the function within.
+```
+> Functions are Objects
+
+But `typeof` will return `function`, so you can always check if what you are about to `call` is a function:
+
+```js
+if(typeof(person.fullName) === 'function') { 
+  // just made 100% sure that what we are about to call is a function so we can call it.
+  person.fullName()
+}
+```
+
+Very helpful method of all functions is `toString`, which for Java developers should be familiar, returns the actual body of the function:
+
+```js
+person.fullName.toString();
+// function() { return this.firstName + " " + this.lastName; }
+```
+
+### Parameters
+
+First of all:
+```js
+function args(a, b) {
+  return arguments.length;
+}
+args()
+// 0
+args(1,2,3)
+// 3
+```
+Will be handy once you start checking parameters. But just good to refer back to for now.
+
+> Arguments are Passed by Value
+Let us learn this.
+
+> Objects are Passed by Reference
+Pay good attention to this.

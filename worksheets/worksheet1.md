@@ -108,6 +108,9 @@ b = 6;      // Assign the value 6 to b
 c = a + b;  // Assign the sum of a and b to c
 ```
 ### Data types (or types)
+
+Unliked other languages, JS does not have a large list of primitive data types. There are `several` of them.
+
 Please do some `typeof` checks on variables and see if they match these. For example:
 
 ```js
@@ -399,7 +402,7 @@ var x;         // Declare x
   * `document.getElementById`
 * Browser Object Model (Bom)
   * `window.document.getElementById`
-  
+
 # ECMAScript
 > ECMAScript 3 is fully supported in all browsers.
 
