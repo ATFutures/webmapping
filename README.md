@@ -3,7 +3,7 @@ Short course in web (browser) mapping using React
 
 What can you do with JavaScript?
 * You can [fly a drone](https://www.youtube.com/watch?v=JzFvGf7Ywkk).
-* You could write an Integrated Development Enviroment ([IDE](https://arstechnica.com/information-technology/2015/04/microsofts-new-code-editor-is-built-on-googles-chromium/)).
+* You could write an Integrated Development Enviroment ([IDE](https://github.com/microsoft/vscode)).
 * Facebook is built with [React](https://github.com/facebook/react).
 
 Learn JS to do everythign from writing your first JS line of code to writing your own component of a web mapping library in React. 
