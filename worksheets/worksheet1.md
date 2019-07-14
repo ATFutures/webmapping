@@ -368,24 +368,50 @@ function myFunction() {
 `var` has no scope, `let` has scope:
 
 ```js
- var x = 10;
-// Here x is 10
+ var x = 2;
+// Here x is 2
 {
-  let x = 2;
-  // Here x is 2
+  let x = 4;
+  // Here x is 4
 }
-// Here x is 10 
+// Here x is 2 
 ```
 Try this in your browser console:
 ```js
 // in your console
-{var x = 10}
+{var x = 2}
 // type x
-{let x = 2; console.log(x)}
-// 10
+{let x = 4; console.log(x)}
+// 2
 // undefined
 // type x
 
+```
+`const` is constant and value cannot be changed. But when it comes to scoping it is similar to `let` and is scoped to the `block`. As shown in the following example:
+
+```js
+var x = 2;
+// Here x is 2
+{ 
+  const x = 4;
+  // Here x is 4
+}
+// Here x is 2
+```
+> ES2015 introduced two important new JavaScript keywords: let and const.
+
+### Constant Objects can Change
+`const` keyword is a bit misleading when it comes to objects. Objects can change their properties.
+
+```js
+// You can create a const object:
+const bike = {type:"X", pruce:"50", color:"white"};
+
+// You can change a property:
+bike.color = "red";
+
+// You can add a property:
+bike.owner = "Johnson";
 ```
 
 ## Hoisting

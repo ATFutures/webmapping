@@ -25,5 +25,10 @@ Go advanced and take your skills to the level of using http://kepler.gl/ dashbor
 * Advanced
   * Coming...
 
+### Repo structure (currently beginner only): 
+* `worksheets` are the main content of the course. They are divided into four half-day's worth of effort.
+* `html` includes the "standalone" code samples that you can view in a browser.
+* `slides` are for me to teach the course but feel free to use them.
+
 Inspirations taken from E.W Dijkstra.
 > It has been remarked to me (to my great regret. I cannot remember by whom and so I am unable to give credit where it seems due) that once a person has understood the way in which variables are used in programming, he has understood the quintessence of programming. ~ O. J. Dahl, E. W. Dijkstra, and C. A. R. Hoare (Eds.). 1972. [Structured Programming](https://dl.acm.org/citation.cfm?id=1243380). (p11)

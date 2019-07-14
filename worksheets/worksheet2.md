@@ -193,7 +193,7 @@ At this stage, I would stay away from modifying prototypes.
 
 
 ## Functions (more)
-JavaScript is a "functional" language. Functions rae building blocks just like primitives (string, number)
+JavaScript is a "functional" language. Functions are building blocks just like primitives (string, number)
 ```js
 var x = function (a, b) {return a * b};
 var z = x(4, 3);
@@ -240,7 +240,7 @@ person.fullName.toString();
 // function() { return this.firstName + " " + this.lastName; }
 ```
 
-### Parameters
+### Parameters
 
 First of all:
 ```js
