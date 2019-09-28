@@ -58,8 +58,19 @@ document.write("<p style='color:orange'>Hello World</p>");
 ## NodeJS intro (1)
 - Operating System did you say? Thanks to NodeJS and V8.
 - NodeJS runs JS outside the browser. So in your commandline for example. Basically parsing JS using C++ (V8) [event-driven](https://en.wikipedia.org/wiki/Event-driven_architecture) and "non-blocking".
-- 
+- We will play with NodeJS outside the browser in the worksheets.
 
+## NodeJS intro (2)
+- Effectively, the existence of Node makes "isomorphic" stack possible. That is writing your entire application in JS both on front and backend.
+<img src="images/isomorphism.jpg"/>
+
+## NodeJS intro (3)
+- Then NodeJS went a little further. Enabling engineers to write libraries that can parse JavaScript code into Java and ObjectiveC to run on Android and iOS devices.
+<img src="images/native.jpg"/>
+
+
+## Web mapping
+<img src="http://www.nic.funet.fi/index/FUNET/history/internet/en/xeroxmap.jpg"/>
 
 <style>
 .box {
@@ -95,6 +106,3 @@ document.write("<p style='color:orange'>Hello World</p>");
     left: 100%;  
 }
 </style>
-
-## Web mapping
-<img src="http://www.nic.funet.fi/index/FUNET/history/internet/en/xeroxmap.jpg"/>
