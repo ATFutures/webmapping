@@ -1,5 +1,5 @@
 # webmapping
-Short course in web (browser) mapping using React
+Short course in JavaScript to do web (browser) mapping using React.
 
 What can you do with JavaScript?
 * You can [fly a drone](https://www.youtube.com/watch?v=JzFvGf7Ywkk).
@@ -8,9 +8,12 @@ What can you do with JavaScript?
 
 Learn JS to do everythign from writing your first JS line of code to writing your own component of a web mapping library in React. 
 
-Go advanced and take your skills to the level of using http://kepler.gl/ dashbords to  analyse spatial data, bring your own data analysis backend or learn R to analyse data using [R4TS](https://github.com/ITSLeeds/R4TS).
-
 <img width="804" alt="Screenshot 2019-05-17 at 15 36 01" src="https://user-images.githubusercontent.com/408568/57935369-865c7580-78b9-11e9-8108-86ed586d38a8.png">
+
+### Take this course
+Whilst I continue creating the content and strucutre the course. If you like use it now, use the worksheets in the order they are numbered. 
+
+Each worksheet is estimated to take half a day teaching but should be less than 2 hours self learning.
 
 ### Course content:
 
