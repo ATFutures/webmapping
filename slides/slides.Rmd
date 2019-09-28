@@ -33,22 +33,33 @@ bibliography: refs.bib
 - ReactJS (Facebook), Angular (Google/Microsoft) etc.
 - ReactNative (Develop smartphone apps - native)
 
-## JS intro
+## JS intro (1)
 ```{js}
 document.write("<p style='color:orange'>Hello World</p>");
 ```
 
 - Open the Markdown document within the repo.
-- We will get back to the slides from time time.
+- We will get back to the slides from time to time.
 
-## JS document
-<p class="box">Tip: use the inspect element to find whiwhc table you like to add the new row/td to.</p>
+<p class="box">Tip: use the inspect element to ...</p>
 
+## JS intro (2): goodies
+- https://github.com/sorrycc/awesome-javascript
+- https://hackr.io/tutorials/learn-javascript
+- https://www.w3schools.com/js/
+- https://github.com/getify/You-Dont-Know-JS
 
-## JS Goodies
-> https://github.com/getify/You-Dont-Know-JS
+## JS intro (3)
+- Netscape history and Brendan Eich
+- Do you care about the history? Rather read a Wikipedia article?
+- Runs everywhere and WebAssembly interchangeable?
+- The browser is now literally an operating system (Chromebook?) or even your typical desktop/Mac.
 
-> https://github.com/sorrycc/awesome-javascript
+## NodeJS intro (1)
+- Operating System did you say? Thanks to NodeJS and V8.
+- NodeJS runs JS outside the browser. So in your commandline for example. Basically parsing JS using C++ (V8) [event-driven](https://en.wikipedia.org/wiki/Event-driven_architecture) and "non-blocking".
+- 
+
 
 <style>
 .box {

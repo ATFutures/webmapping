@@ -26,7 +26,7 @@ Each worksheet is estimated to take half a day teaching but should be less than 
   * Web mapping (core of the course)  (day 2)
   * Visualizing data using Leaflet/MapBoxGL (day 2)
 * Advanced
-  * Coming...
+  * Future plans...
 
 ### Repo structure (currently beginner only): 
 * `worksheets` are the main content of the course. They are divided into four half-day's worth of effort.
